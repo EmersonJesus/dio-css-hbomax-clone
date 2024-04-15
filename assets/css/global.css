@@ -127,6 +127,15 @@ section {
   color: var(--btn-link-color);
 }
 
+/* Container */
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px;
+  text-align: center;
+}
+
 
 /* Custom Scroll */
 ::-webkit-scrollbar {
