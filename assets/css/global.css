@@ -51,6 +51,11 @@ section {
   scroll-margin-top: 80px;
 }
 
+.text--small {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 /* Buttons */
 
 .button {
@@ -64,6 +69,20 @@ section {
   letter-spacing: 4px;
   border: none;
   cursor: pointer;
+}
+
+.button.button--gradient {
+  background: var(--btn-bg-color-gradient);
+  outline: 3px solid transparent;
+  transition: background 1s, outline 1s, transform 1s;
+  background-size: 250%;
+}
+
+.button.button--gradient:hover {
+  background-color: transparent;
+  background-position: 100%;
+  outline: 2px solid var(--secondary-color);
+  transform: scale(1.05);
 }
 
 /* Navbar */
